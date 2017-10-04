@@ -100,13 +100,14 @@ function handleComplete(evt,comp) {
 </head>
 <body onload="init();" style="margin:0px;">
 
-<!--additional click tag code, wrapped div in anchor tag-->
-<a href="javascript:window.open(window.clickTag)">
+
 	<div id="animation_container" style="background-color:rgba(255, 255, 255, 1.00); width:320px; height:100px">
+		<!--additional click tag code, wrapped canvas in anchor tag-->
+<a href="javascript:window.open(window.clickTag)">
 		<canvas id="canvas" width="320" height="100" style="position: absolute; display: block; background-color:rgba(255, 255, 255, 1.00);"></canvas>
+			</a>
 		<div id="dom_overlay_container" style="pointer-events:none; overflow:hidden; width:320px; height:100px; position: absolute; left: 0px; top: 0px; display: block;">
 		</div>
 	</div>
-	</a>
 </body>
 </html>
